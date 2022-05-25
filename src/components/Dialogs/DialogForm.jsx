@@ -50,6 +50,7 @@ function DialogForm() {
                 text: `Сообщение '${lastAuthor.text}' автора '${lastAuthor.author}' отправлено`,
             }]);
         }
+        
 
         ref.current.focus()
     }
