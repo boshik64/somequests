@@ -17,7 +17,7 @@ const Messages = () => {
     })
 
     const addMessage = () => {
-        
+
 
         const obj = {
             id: Math.random(),
@@ -26,11 +26,12 @@ const Messages = () => {
         }
         dispatch({ type: ADD_MESSAGES, payload: obj })
     }
-    console.log(chatId)
+
 
 
     const deleteMessage = (id) => {
-        dispatch({ type: DELETE_MESSAGES, payload: id })
+        dispatch({ type: DELETE_MESSAGES, payload: id, meta: { delay: 3000 } })
+
     }
 
 
