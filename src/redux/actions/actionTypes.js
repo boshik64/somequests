@@ -1,0 +1,5 @@
+
+
+
+export const DELETE_MESSAGES = 'DELETE_MESSAGES';
+export const ADD_MESSAGES = 'ADD_MESSAGES'; 
